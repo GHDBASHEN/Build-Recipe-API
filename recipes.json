@@ -20,5 +20,214 @@
             "carbs": 50,
             "fat": 10
         }
+    },
+    {
+        "name": "Chicken Caesar Salad",
+        "ingredients": ["chicken breast", "romaine lettuce", "croutons", "parmesan", "Caesar dressing"],
+        "instructions": "Grill chicken. Toss lettuce, croutons, and parmesan with dressing. Add chicken.",
+        "nutritional_info": {
+            "calories": 450,
+            "protein": 30,
+            "carbs": 20,
+            "fat": 25
+        }
+    },
+    {
+        "name": "Beef Tacos",
+        "ingredients": ["ground beef", "taco shells", "lettuce", "cheese", "salsa"],
+        "instructions": "Cook beef. Fill taco shells with beef, lettuce, cheese, and salsa.",
+        "nutritional_info": {
+            "calories": 500,
+            "protein": 25,
+            "carbs": 40,
+            "fat": 25
+        }
+    },
+    {
+        "name": "Banana Smoothie",
+        "ingredients": ["banana", "milk", "honey", "ice"],
+        "instructions": "Blend all ingredients until smooth.",
+        "nutritional_info": {
+            "calories": 200,
+            "protein": 5,
+            "carbs": 45,
+            "fat": 2
+        }
+    },
+    {
+        "name": "Margherita Pizza",
+        "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"],
+        "instructions": "Spread sauce on dough. Add mozzarella and basil. Bake.",
+        "nutritional_info": {
+            "calories": 600,
+            "protein": 20,
+            "carbs": 70,
+            "fat": 25
+        }
+    },
+    {
+        "name": "Vegetable Soup",
+        "ingredients": ["carrot", "potato", "onion", "celery", "vegetable broth"],
+        "instructions": "Simmer all ingredients until vegetables are tender.",
+        "nutritional_info": {
+            "calories": 150,
+            "protein": 5,
+            "carbs": 30,
+            "fat": 2
+        }
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "ingredients": ["bread", "cheddar cheese", "butter"],
+        "instructions": "Butter bread. Place cheese between slices. Grill.",
+        "nutritional_info": {
+            "calories": 350,
+            "protein": 15,
+            "carbs": 30,
+            "fat": 20
+        }
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
+        "instructions": "Cook spaghetti. Sauté beef with onion and garlic. Add sauce. Combine.",
+        "nutritional_info": {
+            "calories": 500,
+            "protein": 25,
+            "carbs": 70,
+            "fat": 15
+        }
+    },
+    {
+        "name": "Fruit Salad",
+        "ingredients": ["apple", "banana", "orange", "grapes", "honey"],
+        "instructions": "Chop fruits. Drizzle with honey. Mix.",
+        "nutritional_info": {
+            "calories": 180,
+            "protein": 2,
+            "carbs": 45,
+            "fat": 0
+        }
+    },
+    {
+        "name": "Tomato Basil Soup",
+        "ingredients": ["tomatoes", "basil", "onion", "vegetable broth", "olive oil"],
+        "instructions": "Sauté onion and tomatoes. Simmer with broth and basil.",
+        "nutritional_info": {
+            "calories": 250,
+            "protein": 4,
+            "carbs": 30,
+            "fat": 10
+        }
+    },
+    {
+        "name": "Chicken Curry",
+        "ingredients": ["chicken", "coconut milk", "curry powder", "onion", "garlic"],
+        "instructions": "Cook chicken with onion and garlic. Add curry powder and coconut milk.",
+        "nutritional_info": {
+            "calories": 520,
+            "protein": 35,
+            "carbs": 15,
+            "fat": 35
+        }
+    },
+    {
+        "name": "Pancakes",
+        "ingredients": ["flour", "milk", "egg", "butter", "sugar"],
+        "instructions": "Mix ingredients. Cook on a griddle until golden brown.",
+        "nutritional_info": {
+            "calories": 290,
+            "protein": 8,
+            "carbs": 40,
+            "fat": 10
+        }
+    },
+    {
+        "name": "Greek Salad",
+        "ingredients": ["cucumber", "tomato", "feta cheese", "olive oil", "olives"],
+        "instructions": "Combine ingredients. Drizzle with olive oil.",
+        "nutritional_info": {
+            "calories": 220,
+            "protein": 7,
+            "carbs": 15,
+            "fat": 15
+        }
+    },
+    {
+        "name": "Quinoa Salad",
+        "ingredients": ["quinoa", "cucumber", "tomato", "lemon juice", "olive oil"],
+        "instructions": "Cook quinoa. Mix with vegetables and dressing.",
+        "nutritional_info": {
+            "calories": 320,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 12
+        }
+    },
+    {
+        "name": "Lentil Soup",
+        "ingredients": ["lentils", "carrot", "onion", "garlic", "vegetable broth"],
+        "instructions": "Simmer all ingredients until lentils are soft.",
+        "nutritional_info": {
+            "calories": 300,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 5
+        }
+    },
+    {
+        "name": "Fish Tacos",
+        "ingredients": ["fish fillets", "taco shells", "cabbage", "lime", "sour cream"],
+        "instructions": "Cook fish. Assemble tacos with fish, cabbage, lime, and sour cream.",
+        "nutritional_info": {
+            "calories": 450,
+            "protein": 30,
+            "carbs": 35,
+            "fat": 20
+        }
+    },
+    {
+        "name": "Omelette",
+        "ingredients": ["eggs", "cheese", "onion", "bell pepper", "butter"],
+        "instructions": "Cook eggs with vegetables and cheese.",
+        "nutritional_info": {
+            "calories": 310,
+            "protein": 20,
+            "carbs": 5,
+            "fat": 25
+        }
+    },
+    {
+        "name": "Mushroom Risotto",
+        "ingredients": ["arborio rice", "mushrooms", "onion", "vegetable broth", "parmesan"],
+        "instructions": "Cook rice with mushrooms and onion, gradually adding broth.",
+        "nutritional_info": {
+            "calories": 380,
+            "protein": 15,
+            "carbs": 50,
+            "fat": 12
+        }
+    },
+    {
+        "name": "Berry Smoothie",
+        "ingredients": ["strawberries", "blueberries", "banana", "yogurt", "honey"],
+        "instructions": "Blend all ingredients until smooth.",
+        "nutritional_info": {
+            "calories": 220,
+            "protein": 8,
+            "carbs": 45,
+            "fat": 2
+        }
+    },
+    {
+        "name": "Shrimp Pasta",
+        "ingredients": ["shrimp", "pasta", "garlic", "olive oil", "parmesan"],
+        "instructions": "Cook pasta and shrimp. Combine with garlic and olive oil. Add parmesan.",
+        "nutritional_info": {
+            "calories": 480,
+            "protein": 25,
+            "carbs": 60,
+            "fat": 15
+        }
     }
 ]
