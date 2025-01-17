@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+}
+
+h1 {
+    color: #333; /* Darker text color */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+input[type="text"]:focus {
+    border-color: #218838; /* Darker green on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.recipe-output {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    text-align: left; /* Align text to the left */
+}
+
+.recipe-output h2 {
+    color: #28a745; /* Green color for recipe titles */
+}
+
+.recipe-output h3 {
+    margin-top: 15px;
+    color: #333; /* Darker color for headings */
+}
+
+.recipe-output p {
+    margin: 5px 0; /* Spacing for paragraphs */
+}
+
+.recipe-output ul {
+    padding-left: 20px; /* Indent list */
+}
