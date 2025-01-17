@@ -1,5 +1,8 @@
 # Build Recipe API
 
+![{C91C6EC2-2C74-48CE-9061-6E2E70AA4829}](https://github.com/user-attachments/assets/148d5e71-2fca-4b42-89a1-8869830c5f78)
+
+
 ## Overview
 
 The **Build Recipe API** is a web application that allows users to search for recipes based on the ingredients they have available. Users can input a single ingredient, and the application will return a list of recipes that include that ingredient, along with detailed instructions and nutritional information.
@@ -9,6 +12,8 @@ The **Build Recipe API** is a web application that allows users to search for re
 The primary purpose of this project is to:
 - **Build a RESTful API**: Create an API that allows users to interact with the recipe database by searching for recipes based on available ingredients.
 - **Test the API with Postman**: Use Postman to send requests to the API, validate its functionality, and ensure it returns the expected results.
+
+![Screenshot 2025-01-17 214507](https://github.com/user-attachments/assets/dca54cd9-2ee3-4076-b838-25fdb5226ea8)
 
 
 ## Features
