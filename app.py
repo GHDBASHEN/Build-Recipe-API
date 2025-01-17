@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import json
-import random
 
 app = Flask(__name__)
+CORS(app)
 
 # Load recipes from JSON file
 def load_recipes():
@@ -11,30 +12,30 @@ def load_recipes():
 
 recipes = load_recipes()
 
-# Function to find recipes based on available ingredients
-def find_recipes(available_ingredients):
-    available_set = set(available_ingredients)
+# Function to find recipes based on a single ingredient
+def find_recipes_by_ingredient(ingredient):
     matched_recipes = []
 
     for recipe in recipes:
-        recipe_set = set(recipe['ingredients'])
-        if recipe_set.issubset(available_set):
+        if ingredient.lower() in [i.lower() for i in recipe['ingredients']]:
             matched_recipes.append(recipe)
 
     return matched_recipes
 
-@app.route('/generate', methods=['POST'])
-def generate_recipe():
+@app.route('/search', methods=['POST'])
+def search_recipe():
     data = request.json
-    available_ingredients = data.get('ingredients', [])
+    ingredient = data.get('ingredient', '').strip()
     
-    matched_recipes = find_recipes(available_ingredients)
+    if not ingredient:
+        return jsonify({"message": "No ingredient provided."}), 400
+
+    matched_recipes = find_recipes_by_ingredient(ingredient)
 
     if matched_recipes:
-        selected_recipe = random.choice(matched_recipes)
-        return jsonify(selected_recipe)
+        return jsonify(matched_recipes)
     else:
-        return jsonify({"message": "No recipes found with the given ingredients."}), 404
+        return jsonify({"message": "No recipes found with the given ingredient."}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)

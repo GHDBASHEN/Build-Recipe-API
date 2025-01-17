@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Pasta Primavera",
+        "ingredients": ["pasta", "bell pepper", "zucchini", "olive oil", "garlic"],
+        "instructions": "Cook pasta. Sauté vegetables in olive oil and garlic. Combine.",
+        "nutritional_info": {
+            "calories": 400,
+            "protein": 12,
+            "carbs": 60,
+            "fat": 15
+        }
+    },
+    {
+        "name": "Vegetable Stir Fry",
+        "ingredients": ["broccoli", "carrot", "soy sauce", "tofu", "rice"],
+        "instructions": "Stir fry vegetables and tofu. Serve with rice.",
+        "nutritional_info": {
+            "calories": 350,
+            "protein": 20,
+            "carbs": 50,
+            "fat": 10
+        }
+    }
+]
